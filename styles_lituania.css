@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    height: auto;
+}
+body{
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: bisque;
+}
+
+.top{
+    margin:0;
+    padding: 0;
+}
+ul{
+   list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+   border:1px solid lightseagreen;
+    display: inline-block;
+    float: left;
+    clear: right;
+    width: 16.66%;
+    background-color: lightseagreen;
+    padding: 20px;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+.pagina{
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: green;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+li:hover a{
+    color:yellow;
+}
+
+.cont_img_head{
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.head_cas{
+    padding: 0;
+    width: 110%;
+    height: 800px;
+    margin: -250px 150px 0 -100px;
+}
+.cont_litu{
+    float:left;
+    position: absolute;
+    height: 200px;
+    width: 800px;
+    margin-top: 50px;
+    padding-left: 20px;
+    /*background-color: white;
+    opacity: 0.5;*/
+
+}
+.titulo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 200px;
+    font-family: "Bilbo Swash Caps";
+    background: -webkit-linear-gradient(yellow,yellow,green,red,red);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.escudo{
+    float: left;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1300px;
+}
+.cont_text{
+    height: auto;
+    width: 100%;
+    float: left;
+    position: inherit;
+    overflow: hidden;
+}
+.imag_text_izq{
+    border-right: 4px solid red;
+    float: left;
+    position: relative;
+    height: auto;
+    width: 15%;
+    overflow: hidden;   
+}
+.imag_text_izq img{
+    float: left;
+    width: 100%;
+    padding: 2px 0;
+    
+}
+.texto{
+    float: left;
+    position: relative;
+    text-align: justify;
+    color: black;
+    width: 70%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 20px 40px;       
+}
+.imag_text_der{
+    border-left: 4px solid red;
+    float: left;
+    position: relative;
+    height: auto;
+    width: 15%;
+    overflow: hidden;
+}
+
+.imag_text_der img{
+    float: left;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.intro_gal{
+    text-align: center;
+}
+.red_text{
+    color: red;
+}
+.gal_im{
+    padding-left: 80px;
+    /*clearfix aqui*/
+    content: "";
+    clear: both;
+    display: table;
+}
+.gal_im img{
+    width: 45%;
+    height: 250px;
+    margin-left: 40px;
+    
+    
+}
+
+.cita{
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    background-color: bisque;
+    float: right;
+    margin: 10px 20px;
+    overflow: hidden;
+    
+}
+
+.cita_img{
+    width: 400px;
+    height: 130px;
+    padding: 0px;
+    overflow: hidden;
+    float: right;
+}
+.cita_img img{
+    padding: 0;
+    width: 400px;
+    height: 134px;
+    margin: 00px 0px 0px 0px;
+    
+    
+}
+
+.video{
+   text-align: center;
+    
+}
+video{    
+    margin: 30px;    
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    float: left;
+    font-size: 10px;
+    padding: 2px;
+    margin: 0px;
+}
